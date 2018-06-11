@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Louis Mazza's Portfolio Site</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio site for Louis Mazza">
+  <meta name="keywords" content="Louis Mazza, portfolio, web design, code coding, junior web designer, web designer, los angeles, california, react, javascript, node, jquery">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bangers|Oswald|Share" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Marcellus+SC" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <!-- Brand -->
+      <a class="navbar-text text-uppercase text-white pr-3">Louis Mazza</a>
+
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+        </ul>
+      </div> 
+    </nav>
+
+    <div class="row">
+      <div class="grad col-sm-3">
+        <section>
+          <div class="my-dumb-face-container mx-auto">
+            <image class="img-fluid mx-auto d-block" src="images/me.jpg" alt="Louis Mazza">
+          </div>
+          <h1 class="shadow">LOUIS MAZZA</h1>
+          <ul>
+            <li>louismazza-at-gmail.com</li>
+            <li><a href="https://www.linkedin.com/in/louis-mazza-813983140/">LinkedIn</a></li>
+            <li><a href="https://twitter.com/louismazza">twitter</a></li>
+            <li><a href="https://github.com/lemazza">github</a></li>
+          </ul>
+        </section>
+      </div>
+      <div class="col-sm-9 border-left border-dark">
+        <main class="mx-auto col-sm-10">
+
+          <div class="shadow demo-site">
+            <a href="https://bad-apples.netlify.com/"><h3>Bad Apples</h3></a>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="site-img-container">
+                  <a href="https://bad-apples.netlify.com/"><image class="site-img" src="images/game-match.jpg" alt="Bad Apples"></a>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <p>For my final capstone project I developed an online implementation of one of my favorite games. Bad Apples is based on the bidding/bluffing game Skull, and with the site you can play against your friends online. I built separate client and server side apps and taught myself websockets to better implement the game.</p>
+                <a href="https://github.com/lemazza/bad-apples">Client-side Repo</a><br>
+                <a href="https://github.com/lemazza/BA-server">Server Repo</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="shadow demo-site">
+            <a href="https://lemazza.github.io/BGG-BoardGameMatch/"><h3>Board Game Match</h3></a>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="site-img-container">
+                  <a href="https://lemazza.github.io/BGG-BoardGameMatch/"><image class="site-img" src="images/game-match.jpg" alt="Board Game Match"></a>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <p>BGM is useful for people looking to play a board game.  A user can implement the number of players and how difficult a game they want to play and the site retrieves the data, runs it through a simple algorithm and return the best games that match the criteria along with descriptions and an instructional video. </p>
+                <a href="https://github.com/lemazza/BGG-BoardGameMatch">Repo</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="shadow demo-site">
+            <a href="https://hunters-of-the-week.herokuapp.com/"><h3>Hunters of the Week</h3></a>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="site-img-container">
+                  <a href="https://hunters-of-the-week.herokuapp.com/"><image class="site-img" src="images/hunters.jpg" alt="Hunters of the Week"></a>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <p>Second project, focusing on creating a server API in Node with a Mongo Database, is a site based on the roleplaying game Monster of the Week. It allows users to build and maintain characters that they can then use to play the game. </p>
+                <a href="https://github.com/lemazza/MoW-Capstone">Repo</a>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
