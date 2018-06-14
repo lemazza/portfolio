@@ -1,24 +1,20 @@
-h1 {
+
+h2 {
   color: #555;
-  text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-kerning: none;
-  font-size: 40px;
+  font-size: 35px;
+}
+
+.portfolio a:hover {
+  text-decoration: none;
+}
+
+.portfolio h2:hover {
+  color: #343a40;
 }
 
 .demo-site {
-  border: 1px solid black;
-  margin-bottom: 25px;
-  background-color: #ddd;
-}
-
-h3 {
-  background-color: #333;
-  background: linear-gradient(90deg, #333, #111, #333, #555, #444);
-  color: white;
-  padding-left: 10px;
-  font-family: 'Open Sans Condensed', sans-serif;
-  margin-bottom: 0
+  margin-bottom: 50px;
 }
 
 .navbar {
@@ -27,9 +23,8 @@ h3 {
 }
 
 
-.site-img-containter {
-  max-height: 350px;
-  border: 1px solid green;
+.site-img-container {
+  margin-bottom: 5px
 }
 
 .site-img {
@@ -44,14 +39,41 @@ header ul {
   text-align: center;
 }
 
-.my-dumb-face-container {
-  width: 50%;
-  margin-top: 20px;
-  border: 3px solid #777;
-} 
+
 main {
-  margin-top: 10px;
+  margin-top: 87px;
 }
-.demo-site p {
-  font-family: 'Oswald', sans-serif;
+
+
+.biography .portfolio {
+  padding-top: 20px;
+}
+
+.ref-links a {
+  color: grey;
+  font-size: 35px;
+}
+
+.ref-links a:hover {
+  color: #343a40;
+}
+
+.repo-btn {
+  display: inline-block;
+  background-color: #bbb;
+  color: #343a40;
+  padding: 5px;
+  width: 150px;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.repo-btn:hover {
+  background-color: #999;
+  color: #343a40;
+}
+
+.repo-btn:active {
+  background-color: #343a40;
+  color: #ddd;
 }
