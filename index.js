@@ -6,7 +6,11 @@ function watchNavClick() {
     
     //define clicked text of the clicked link
     let navName = $(this).find('a').text()
-    console.log(navName);
+
+    // remove active from both navs
+    $('.nav-link').removeClass('active')
+    // add active to clicked nav
+    $(this).find('a').addClass('active')
 
     // hide all sections
     $('section').hide();
@@ -22,7 +26,6 @@ function watchNavClick() {
 
 function clickNavOnLoad() {
   let link = $('.nav-link');
-  console.log(link);
   //$('.nav-link[value="Portfolio"]').click();
   link[0].click();
 }

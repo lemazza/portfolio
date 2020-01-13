@@ -22,6 +22,9 @@ h2 {
   font-size: 30px
 }
 
+.nav-link.active {
+  color: rbga(255, 255, 255, .5);
+}
 
 .site-img-container {
   margin-bottom: 5px
@@ -51,7 +54,7 @@ main {
 
 .ref-links a {
   color: grey;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .ref-links a:hover {
@@ -77,3 +80,4 @@ main {
   background-color: #343a40;
   color: #ddd;
 }
+

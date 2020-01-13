@@ -31,10 +31,10 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">About Me</a>
+          <a class="nav-link pasted" href="#">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
+          <a class="nav-link pasted" href="#">Portfolio</a>
         </li>
       </ul>
     </div> 
@@ -43,9 +43,20 @@
   <main class="container">
     <!-- BIO -->
     <section class="biography row" >
-      <div class="my-dumb-face-container col-3">
-        <image class="img-fluid mx-auto d-block" src="img/me.jpg" alt="Louis Mazza">
+      <div class="col-3">
+        <div class="my-dumb-face-container">
+          <image class="img-fluid mx-auto d-block" src="img/me.jpg" alt="Louis Mazza" />
+        </div>
+        <address>
+          <ul class="ref-links list-unstyled list-inline d-flex flex-row justify-content-around">
+            <li class="list-inline-item"><a href="mailto:louismazza@gmail.com"><i class="fas fa-envelope"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.linkedin.com/in/louis-mazza-813983140/"><i class="fab fa-linkedin"></i></a></li>
+            <li class="list-inline-item"><a href="https://github.com/lemazza"><i class="fab fa-github"></i></a></li>
+            <li class="list-inline-item"><a href="https://twitter.com/louismazza"><i class="fab fa-twitter"></i></a></li>
+          </ul>
+        </address>
       </div>
+
       <div class="col-9 border-dark border-left">
         <h2>Hi! I'm Louis</h2>
         <p>I've just started on my journey into the field of web developement. After completing a Web Development Course from
@@ -54,23 +65,27 @@
         <p>I've enjoyed the process of learning JavaScript and love the challenges and rewards of planning and building out projects from scratch.  I also love the endless potential the world of coding provides. With an idea and perseverance you can build anything.</p>
         <h2>Some more about me</h2>
         <p>I'm originally from Indiana, and moved to LA in 2014.  I've spent over a decade working in the restaurant industry, and currently manage GameHaus Cafe in Glendale, CA.  I live in Eagle Rock and when I'm not reading the docs for node packages I love to play board games and experience the arts and culture LA has to offer.</p>
-        <h2>Coding Stuff</h2>
-        <p>HTML, CSS, JavaScript, jQuery, Node, Express, Mongo, Mongoose, React, Socket.io, Bootstrap</p>
-        <h2>Contact Me</h2>
-        <address>
-          <ul class="ref-links list-unstyled list-inline">
-            <li class="list-inline-item"><a href="mailto:louismazza@gmail.com"><i class="fas fa-envelope"></i></a></li>
-            <li class="list-inline-item"><a href="https://www.linkedin.com/in/louis-mazza-813983140/"><i class="fab fa-linkedin"></i></a></li>
-            <li class="list-inline-item"><a href="https://github.com/lemazza"><i class="fab fa-github"></i></a></li>
-            <li class="list-inline-item"><a href="https://twitter.com/louismazza"><i class="fab fa-twitter"></i></a></li>
-          </ul>
-        </address>
+        <h2>Knowledge Base</h2>
+        <p>HTML, CSS, JavaScript, jQuery, Node, Express, Mongo, Mongoose, React, React-Native, Socket.io, Bootstrap</p>
+        
       </div>
       
     </section>
       
     <!-- PORTFOLIO -->
     <section class="portfolio row">
+
+      <div class="demo-site col-lg-4">
+        <div class="site-img-container">
+          <a href="https://gh-catalog.netlify.com/"><image class="site-img" src="img/gh-catalog-site.png" alt="GameHaus Catalog"></a>
+        </div>
+        <a href="https://gh-catalog.netlify.com/"><h2>GameHaus Catalog</h2></a>
+        <p>Library Catalog for a board game cafe. The site auto-updates with information fed to it from boardgamegeek.com and allows users to find information on games in the store's collection.</p>
+        <a class="repo-btn mr-2 mb-2" href="https://github.com/lemazza/gh-catalog">Client-side Repo</a>
+        <a class="repo-btn" href="https://github.com/lemazza/gh-inventory">Server Repo</a>
+      </div>
+
+
       <div class="demo-site col-lg-4">
         <div class="site-img-container">
           <a href="https://bad-apples.netlify.com/"><image class="site-img" src="img/bad-apples.jpg" alt="Bad Apples"></a>
